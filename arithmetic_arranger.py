@@ -26,10 +26,10 @@ def arithmetic_arranger(problems, display_result=False):
 
   if display_result:
     arranged_lines = [
-        "    ".join(arranged_problems["top"]),
-        "    ".join(arranged_problems["bottom"]),
-        "    ".join(arranged_problems["dash"]),
-        "    ".join(arranged_problems["result"])
+        "\t".join(arranged_problems["top"]),
+        "\t".join(arranged_problems["bottom"]),
+        "\t".join(arranged_problems["dash"]),
+        "\t".join(arranged_problems["result"])
     ]
   else:
     arranged_lines = [
